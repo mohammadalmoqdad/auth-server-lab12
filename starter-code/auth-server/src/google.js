@@ -45,10 +45,8 @@ async function exchangeCodeForToken(code) {
     redirect_uri: API_SERVER,
     grant_type: 'authorization_code'
     })
-  console.log("this is tooooooooken response",tokenResponse)
-  let access_token = tokenResponse.body.access_token;
-  console.log(access_token)
   
+  let access_token = tokenResponse.body.access_token;
   return access_token;
 
 }
