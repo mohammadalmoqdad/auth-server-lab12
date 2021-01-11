@@ -58,7 +58,7 @@
 * [docs](https://developers.google.com/identity/sign-in/web/sign-in)
 
 ### Code Demos
-* [live/running application](http://xyz.com)
+* [live/running application](https://oauth-lab12.herokuapp.com)
 * [code repository](https://github.com/mohammadalmoqdad/auth-server-lab12)
 
 ### Operating Instructions

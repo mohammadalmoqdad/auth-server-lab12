@@ -19,11 +19,13 @@
     let options = {
       response_type: 'code',
       client_id: '632114540588-7tndcieekh6tti899pajuah10acb466i.apps.googleusercontent.com',
-      redirect_uri: 'https://oauth-lab12.herokuapp.com/oauth/',
+      redirect_uri: 'http://localhost:3000/oauth/',
       scope: 'openid email',
       state: 'asldfjdfs'
     }
-
+       // ******************************************************** heruko link is :  
+      //  change it from the .env too.
+    // https://oauth-lab12.herokuapp.com/oauth/
     let QueryString = Object.keys(options).map((key) => {
       return `${key}=` + encodeURIComponent(options[key]);
     }).join("&");
